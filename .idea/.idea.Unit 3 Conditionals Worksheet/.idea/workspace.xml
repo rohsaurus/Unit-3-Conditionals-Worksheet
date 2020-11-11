@@ -7,11 +7,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="397f8d9c-2a46-43e5-b586-981be421b4f4" name="Default Changelist" comment="" />
+    <list default="true" id="397f8d9c-2a46-43e5-b586-981be421b4f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/unsuccessfulbuild" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.vcxproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/vc142.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unit 3 Conditionals Worksheet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unit 3 Conditionals Worksheet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit_3_Conditionals_Worksheet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_3_Conditionals_Worksheet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/Unit 3 Conditionals Worksheet.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/Unit 3 Conditionals Worksheet.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.exe.recipe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -22,11 +41,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1k3i5cZBS1VMWgxKerPuoq4j1bv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -101,7 +124,7 @@
       <workItem from="1604937614053" duration="95000" />
       <workItem from="1605018633015" duration="53000" />
       <workItem from="1605018935932" duration="2685000" />
-      <workItem from="1605103248171" duration="305000" />
+      <workItem from="1605103248171" duration="7244000" />
     </task>
     <servers />
   </component>
@@ -111,6 +134,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -118,6 +142,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="282" y="108" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1280.680@0.0.1280.680" timestamp="1604936381643" />
+    <state x="468" y="243" key="Github.ShareDialog" timestamp="1605103876527">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="468" y="243" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1605103876527" />
+    <state x="344" y="0" key="Github.UntrackedFilesDialog" timestamp="1605103883547">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="344" y="0" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605103883547" />
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1605104876759">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605104876759" />
+    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1605104876759">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605104876759" />
+    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1605104876759">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605104876759" />
+    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1605104876759">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605104876759" />
     <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size" timestamp="1604937461038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -134,9 +182,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="146" key="save.file.as.template.dialog/0.0.1280.680@0.0.1280.680" timestamp="1604936196436" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1605020205848">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1605106458071">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605020205848" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605106458071" />
   </component>
 </project>

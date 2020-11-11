@@ -1,0 +1,2 @@
+C:\Users\mpari\Documents\coding projects\C++\Unit_3_Conditionals_Worksheet\x64\Debug\Unit 3 Conditionals Worksheet.exe
+C:\Users\mpari\Documents\coding projects\C++\Unit_3_Conditionals_Worksheet\x64\Debug\Unit 3 Conditionals Worksheet.pdb
