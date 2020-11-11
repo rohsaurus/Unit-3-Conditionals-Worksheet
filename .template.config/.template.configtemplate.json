@@ -1,0 +1,12 @@
+{
+  "author": "Rohan Parikh",
+  "classifications": [ "Console" ],
+  "name": "Hello World Template",
+  "identity": "Unit_3_Conditionals_Worksheet",        
+  "shortName": "Hello",                 
+  "tags": {
+    "language": "C++"                       
+  },
+  "sourceName": "Unit_3_Conditionals_Worksheet",     
+  "preferNameDirectory" : "true"
+}
