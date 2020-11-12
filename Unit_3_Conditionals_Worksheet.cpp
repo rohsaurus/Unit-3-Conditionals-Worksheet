@@ -83,7 +83,7 @@ void ifElseWorksheets()
     }
     else
     {
-        "Your number is odd\n";
+        cout << "Your number is odd\n";
     }
 
     // Question 3
@@ -104,8 +104,7 @@ void ifElseWorksheets()
     }
 
     // Question 4
-    cout << "Would you like to enter a new age, or use the one you already entered? Enter new or old. New is for choosing a new age and old if sticking with the one provided earlier\
-    n";
+    cout << "Would you like to enter a new age, or use the one you already entered? Enter new or old. New is for choosing a new age and old if sticking with the one provided earlier\n";
     string choice;
     cin >> choice;
     int birthYear;
@@ -144,8 +143,48 @@ void ifElseWorksheets()
     int numberOne;
     int numberTwo;
     cin >> numberOne >> numberTwo;
-    // Need to finish question 5
+    if (numberOne == numberTwo)
+    {
+        cout << "Both your numbers are the same!\n";
+    }
+    else if (numberOne > numberTwo)
+    {
+        cout << numberTwo << " " << numberOne << endl;
+    }
+    else if (numberOne < numberTwo)
+    {
+        cout << numberOne << " " << numberTwo << endl;
+    }
+
+    // Question 6
+
+    cout << "Your age is " << age << " correct?\n";
+    string input;
+    cin >> input;
+    if (input == "no")
+    {
+        cout << "Enter your age\n";
+        cin >> age;
+    }
+    double underFive = 0;
+    double seniors = 1.50;
+    double allOthers = 2.50;
     
+    if (age <= 5)
+    {
+        setprecision(2);
+        cout << "Your entry fee is $" << underFive << fixed << endl;
+    }
+    if (age >= 65)
+    {
+        setprecision(2);
+        cout << "Your entry fee is $" << seniors << fixed << endl;
+    }
+    if (age > 5 && age < 65)
+    {
+        setprecision(2);
+        cout << "Your entry fee is $" << allOthers << fixed << endl;  
+    }
 }
 
 int main ()
