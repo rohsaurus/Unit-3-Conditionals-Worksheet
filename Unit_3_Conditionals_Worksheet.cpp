@@ -188,10 +188,18 @@ void ifElseWorksheets()
     }
 }
 
+void workingWithLogicalOperaters()
+{
+    
+}
+
 int main ()
 {
     // Method for worksheet called if worksheets
   //  ifWorksheets();
 
-    ifElseWorksheets();
+    // Method for worksheet called if else 
+    //ifElseWorksheets();
+
+    workingWithLogicalOperaters();
 }
