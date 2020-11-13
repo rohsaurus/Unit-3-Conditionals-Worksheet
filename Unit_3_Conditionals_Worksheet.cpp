@@ -166,31 +166,32 @@ void ifElseWorksheets()
         cout << "Enter your age\n";
         cin >> age;
     }
-    double underFive = 0;
-    double seniors = 1.50;
-    double allOthers = 2.50;
+    
+    
+    
     
     if (age <= 5)
     {
-        setprecision(2);
-        cout << "Your entry fee is $" << underFive << fixed << endl;
+        string underFive = "0.00";
+        cout << "Your entry fee is $" << underFive << "\n";
     }
     if (age >= 65)
     {
-        setprecision(2);
-        cout << "Your entry fee is $" << seniors << fixed << endl;
+        string seniors = "1.50";  
+        cout << "Your entry fee is $" << seniors << "\n";
     }
     if (age > 5 && age < 65)
     {
-        setprecision(2);
-        cout << "Your entry fee is $" << allOthers << fixed << endl;  
+        string allOthers = "2.50"; 
+        
+        cout << "Your entry fee is $" << allOthers << "\n";  
     }
 }
 
 int main ()
 {
     // Method for worksheet called if worksheets
-    ifWorksheets();
+  //  ifWorksheets();
 
     ifElseWorksheets();
 }
