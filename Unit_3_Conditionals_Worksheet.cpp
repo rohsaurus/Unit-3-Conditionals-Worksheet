@@ -4,7 +4,8 @@
  *Unit 3 Conditionals Worksheets
  *Extra Thing for IF worksheet: For question 2, added be careful message for if user picks 9
  *Extra Thing for If Else Worksheets: For question 4, gives user choice if they want to reuse their age or pick a new one
- *
+ * Extra Thing for Logical Operators: For Question 1, user is asked if their dogs and cats get along and then appropriate statement is printed
+ * Also, added another statement in Question 1 of what if user picks 0 dogs and 0 cats
  */
 
 #include <iomanip>
@@ -190,6 +191,60 @@ void ifElseWorksheets()
 
 void workingWithLogicalOperaters()
 {
+    // Question 1
+    cout << "How many dogs do you have?\n";
+    int dogs;
+    cin >> dogs;
+    cout << "How many cats do you have?\n";
+    int cats;
+    cin >> cats;
+    if (dogs > 0 && cats > 0)
+    {
+        cout << "Do your cats and dogs get along? Answer yes or no.\n";
+        // Extra thing: Asking the user if their pets get along and printing an appropriate statement
+        string gettingAlong;
+        cin >> gettingAlong;
+        // If user enters yes for getting along
+       if (gettingAlong == "yes")
+       {
+          cout << "That's amazing! How did you get them to stop fighting?\n"; 
+       }
+        // if user enters no for getting along
+        else
+        {
+            cout << "Their constant fighting must cause you a lot of pain.\n";
+        }
+    }
+    else if (dogs > 0 && cats == 0)
+    {
+        cout << "Guess you're a dog person\n";
+    }
+    else if (dogs == 0 && cats > 0)
+    {
+        cout << "Guess you are a cat person.\n";
+    }
+    else if (dogs == 0 && cats == 0) {
+        cout << "No pets? I guess you must not like them.\n";
+    }
+
+
+    // Question 2
+    while (true) {
+    cout << "Enter an integer between 50 and 100\n";
+    int integer;
+    cin >> integer;
+    
+    if (integer >= 50 && integer <= 100)
+    {
+        cout << "You have won $" << integer << " for inputting a number in the correct range!\n";
+        break;
+    }
+        
+    else
+        {
+            cout << "Sorry, not following directions will cost you dearly :-( \n";
+        }
+    }
     
 }
 
@@ -198,8 +253,11 @@ int main ()
     // Method for worksheet called if worksheets
   //  ifWorksheets();
 
+    
     // Method for worksheet called if else 
     //ifElseWorksheets();
 
-    workingWithLogicalOperaters();
+    
+    // Working With Logical Operaters worksheet method
+    //workingWithLogicalOperaters();
 }
