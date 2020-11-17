@@ -6,6 +6,7 @@
  *Extra Thing for If Else Worksheets: For question 4, gives user choice if they want to reuse their age or pick a new one
  * Extra Thing for Logical Operators: For Question 1, user is asked if their dogs and cats get along and then appropriate statement is printed
  * Also, added another statement in Question 1 of what if user picks 0 dogs and 0 cats
+ * Extra Thing for More if else statements: Question 1 continues running until user guesses correcct password
  */
 
 #include <iomanip>
@@ -248,6 +249,73 @@ void workingWithLogicalOperaters()
     
 }
 
+void moreIfElseWorksheet()
+{
+    // Question 1
+
+    string password = "password";
+    // While true loop to keep on repeating until user gets the right password
+    while (true)
+    {
+        cout << "Please enter the password: \n";
+        string passwordGuess;
+        cin >> passwordGuess;
+        if (passwordGuess == password)
+        {
+            cout << "You got it!\n";
+            break;
+        }
+        
+        else
+        {
+        cout << "That's incorrect.\n";    
+        }
+    }
+
+    // Question 2
+
+    cout << "Enter two movie names\n";
+    string movieOne;
+    string movieTwo;
+    cin.ignore();
+    getline(cin,movieOne);
+    getline(cin,movieTwo);
+    int lengthOne = movieOne.length();
+    int lengthTwo = movieTwo.length();
+    // Determining which movie is longer
+
+    if (lengthOne > lengthTwo)
+    {
+        cout << "The length of the movie title, " << movieOne << " is longer that the length of the movie title " << movieTwo << endl;
+    }
+    else if (lengthTwo > lengthOne)
+    {
+        cout << "The length of the movie title, " <<  movieTwo<< " is longer that the length of the movie title " << movieOne << endl;
+    }
+    else if (lengthOne == lengthTwo)
+    {
+        cout << "The lengths of the movie titles " << movieOne << " and " << movieTwo << " are the same\n";
+    }
+
+
+    // Question 3
+
+    cout << "This program may reformat your hard disk. Do you wish to continue? (y/n)\n";
+    char answer;
+    cin >> answer;
+    if (answer == 'y') {
+        cout << "Adios Data\n";
+    }
+    else if (answer == 'n')
+    {
+        cout << "Wise Choice.\n";
+    }
+    else
+    {
+        cout << "That was not a yes or no. I guess I will erase all your data!\n";
+    }
+}
+
 int main ()
 {
     // Method for worksheet called if worksheets
@@ -260,4 +328,8 @@ int main ()
     
     // Working With Logical Operaters worksheet method
     //workingWithLogicalOperaters();
+
+    
+    // More If Else Worksheet Method
+    //moreIfElseWorksheet();
 }

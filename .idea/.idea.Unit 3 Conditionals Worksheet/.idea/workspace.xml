@@ -28,7 +28,6 @@
     <list default="true" id="397f8d9c-2a46-43e5-b586-981be421b4f4" name="Default Changelist" comment="Started working on question 5 on if else worksheet">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unit 3 Conditionals Worksheet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unit 3 Conditionals Worksheet/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unit_3_Conditionals_Worksheet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_3_Conditionals_Worksheet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/link.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.pdb" afterDir="false" />
@@ -73,7 +72,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="discordbeam" />
+    <property name="settings.editor.selected.configurable" value="discord-application" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -141,7 +140,8 @@
       <workItem from="1605103248171" duration="7871000" />
       <workItem from="1605140775462" duration="2842000" />
       <workItem from="1605279183634" duration="3111000" />
-      <workItem from="1605377988150" duration="3165000" />
+      <workItem from="1605377988150" duration="4995000" />
+      <workItem from="1605622934225" duration="2333000" />
     </task>
     <task id="LOCAL-00001" summary="Started working on question 5 on if else worksheet">
       <created>1605113870624</created>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605282359337</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added logical operaters worksheet">
+      <created>1605381438254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605381438254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +205,8 @@
     <MESSAGE value="finished if else worksheet just fixing some bugs" />
     <MESSAGE value="Had to convert the entry fee to string because doubles refusing to print correctly. No clue why" />
     <MESSAGE value="Made new method for logical operaters worksheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made new method for logical operaters worksheet" />
+    <MESSAGE value="Added logical operaters worksheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logical operaters worksheet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="282" y="108" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1604936381644">
@@ -213,22 +221,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="344" y="0" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605103883547" />
-    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1605381321901">
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1605624245460">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605381321901" />
-    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1605381321900">
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605624245460" />
+    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1605624245460">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605381321900" />
-    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1605381321900">
+    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605624245460" />
+    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1605624245460">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605381321900" />
-    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1605381321900">
+    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605624245460" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1605624245460">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605381321900" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605624245460" />
     <state width="1237" height="223" key="GridCell.Tab.1.bottom" timestamp="1605143703634">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -281,14 +289,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1604937461038" />
-    <state x="77" y="0" key="SettingsEditor" timestamp="1605020201090">
+    <state x="77" y="0" key="SettingsEditor" timestamp="1605623133801">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="77" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1605020201090" />
-    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1605282365852">
+    <state x="77" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1605623133801" />
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1605381440340">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605282365852" />
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605381440340" />
     <state x="456" y="282" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1605020105310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
