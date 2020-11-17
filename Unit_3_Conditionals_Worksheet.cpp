@@ -1,12 +1,12 @@
 ﻿/**
  *Rohan Parikh
- *10 November 2020 -
+ *10 November 2020 - 
  *Unit 3 Conditionals Worksheets
  *Extra Thing for IF worksheet: For question 2, added be careful message for if user picks 9
  *Extra Thing for If Else Worksheets: For question 4, gives user choice if they want to reuse their age or pick a new one
  * Extra Thing for Logical Operators: For Question 1, user is asked if their dogs and cats get along and then appropriate statement is printed
  * Also, added another statement in Question 1 of what if user picks 0 dogs and 0 cats
- * Extra Thing for More if else statements: Question 1 continues running until user guesses correcct password
+ * Extra Thing for More if else statements: Question 1 continues running until user guesses correct password
  */
 
 #include <iomanip>
@@ -316,6 +316,94 @@ void moreIfElseWorksheet()
     }
 }
 
+void switchWorksheet()
+{
+    // Question 1
+    cout << "Enter your letter grade\n";
+    char grade;
+    cin >> grade;
+    switch (grade) {
+       case 'a':
+           cout << "Your work is outstanding!\n";
+        break;
+       case 'A':
+           cout << "Your work is outstanding\n";
+        break;
+       case 'b':
+           cout << "You are doing good work!\n";
+        break;
+       case 'B':
+           cout << "You are doing good work!\n";
+        break;
+       case 'c':
+           cout << "Your work is satisfactory.\n";
+        break;
+       case 'C':
+           cout << "Your work is satisfactory.\n";
+        break;
+       case 'd':
+           cout << "You need to work a little harder.\n";
+        break;
+       case 'D':
+           cout << "You need to work a little harder.\n";
+        break;
+       case 'f':
+           cout << "Please see me for extra help!\n";
+        break;
+       case 'F':
+           cout << "Please see me for extra help!\n";
+        break;
+        // Extra thing is default
+       default:
+           cout << "Invalid input\n";
+            cout << "That is not a grade. Do you even go to school?\n";
+        break;
+    }
+
+    // Question 2
+
+    cout << "Enter a number between 1 and 10.\n";
+    int number;
+    cin >> number;
+    
+    switch (number)
+    {
+        case 1:
+            cout << "Your number is a low odd number\n";
+            break;
+        case 3:
+            cout << "Your number is a low odd number\n";
+            break;
+        case 2:
+            cout << "Your number is a low even number\n";
+            break;
+        case 4:
+            cout << "Your number is a low even number\n";
+            break;
+        case 5:
+            cout << "Your number is the middle odd number\n";
+            break;
+        case 6:
+            cout << "Your number is a middle even number\n";
+            break;
+        case 7:
+            cout << "Your number is a high odd number\n";
+            break;
+        case 9 :
+            cout << "Your number is a high odd number\n";
+            break;
+        case 8:
+            cout << "Your number is a high even number\n";
+            break;
+        case 10:
+            cout << "Your number is a high even number\n";
+            break;
+        default:
+            cout << "You entered an invalid number\n";
+    }
+    
+}
+
 int main ()
 {
     // Method for worksheet called if worksheets
@@ -332,4 +420,8 @@ int main ()
     
     // More If Else Worksheet Method
     //moreIfElseWorksheet();
+
+    // Switch Worksheet Method
+
+    switchWorksheet();
 }
