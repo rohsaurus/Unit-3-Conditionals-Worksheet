@@ -7,6 +7,8 @@
  * Extra Thing for Logical Operators: For Question 1, user is asked if their dogs and cats get along and then appropriate statement is printed
  * Also, added another statement in Question 1 of what if user picks 0 dogs and 0 cats
  * Extra Thing for More if else statements: Question 1 continues running until user guesses correct password
+ * Extra Thing for the switch Statement worksheet: Question 1, added a little messgae to the default asking the user if they go to school or not if they input an invalid letter
+ * 
  */
 
 #include <iomanip>
