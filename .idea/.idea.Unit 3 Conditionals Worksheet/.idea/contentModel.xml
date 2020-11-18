@@ -11,6 +11,7 @@
       <e p="Unit 3 Conditionals Worksheet.sln" t="IncludeFlat" />
       <e p="Unit 3 Conditionals Worksheet.vcxproj" t="IncludeRecursive" />
       <e p="Unit_3_Conditionals_Worksheet.cpp" t="Include" />
+      <e p="worksheets.h" t="Include" />
       <e p="x64\Debug" t="ExcludeRecursive" />
     </e>
   </component>

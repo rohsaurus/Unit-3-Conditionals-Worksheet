@@ -26,9 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="397f8d9c-2a46-43e5-b586-981be421b4f4" name="Default Changelist" comment="Started working on question 5 on if else worksheet">
+      <change afterPath="$PROJECT_DIR$/output.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worksheets.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~$output.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~WRL0003.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unit 3 Conditionals Worksheet/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unit 3 Conditionals Worksheet/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unit 3 Conditionals Worksheet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unit 3 Conditionals Worksheet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit 3 Conditionals Worksheet.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unit 3 Conditionals Worksheet.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unit_3_Conditionals_Worksheet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_3_Conditionals_Worksheet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 C.EC8A6876.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Unit 3 Conditionals Worksheet.pdb" afterDir="false" />
@@ -48,6 +54,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.template.config/.template.configtemplate.json" />
+        <option value="$PROJECT_DIR$/worksheets.h" />
         <option value="$PROJECT_DIR$/Unit_3_Conditionals_Worksheet.cpp" />
       </list>
     </option>
@@ -142,7 +149,8 @@
       <workItem from="1605140775462" duration="2842000" />
       <workItem from="1605279183634" duration="3111000" />
       <workItem from="1605377988150" duration="4995000" />
-      <workItem from="1605622934225" duration="5524000" />
+      <workItem from="1605622934225" duration="6004000" />
+      <workItem from="1605711857404" duration="3828000" />
     </task>
     <task id="LOCAL-00001" summary="Started working on question 5 on if else worksheet">
       <created>1605113870624</created>
@@ -186,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605625575798</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished all the worksheets">
+      <created>1605628608326</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605628608326</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Comments">
+      <created>1605628728737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605628728737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +237,9 @@
     <MESSAGE value="Made new method for logical operaters worksheet" />
     <MESSAGE value="Added logical operaters worksheet" />
     <MESSAGE value="Added More If  Else Worksheet code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added More If  Else Worksheet code" />
+    <MESSAGE value="finished all the worksheets" />
+    <MESSAGE value="Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="282" y="108" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1604936381644">
@@ -230,22 +254,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="344" y="0" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605103883547" />
-    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1605628449646">
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1605715699615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605628449646" />
-    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1605628449646">
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605715699615" />
+    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1605715699615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605628449646" />
-    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1605628449645">
+    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605715699615" />
+    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1605715699615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605628449645" />
-    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1605628449646">
+    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605715699615" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1605715699615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605628449646" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605715699615" />
     <state width="1237" height="223" key="GridCell.Tab.1.bottom" timestamp="1605143703634">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -302,10 +326,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="77" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1605627467001" />
-    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1605625583793">
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1605628730580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605625583793" />
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605628730580" />
     <state x="456" y="282" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1605020105310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

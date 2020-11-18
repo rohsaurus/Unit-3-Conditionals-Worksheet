@@ -14,14 +14,21 @@
 #include <iomanip>
 #include <iostream>
 #include <string>
+#include "Worksheets.h"
+
 //namespaces can sometimes cause problems make sure you are able to use it
 using namespace std;
-void ifWorksheets()
+void worksheet1(string wsName)
 {
+    cout << "worksheet: " << wsName << endl << endl;
+
+    
     // Question 1
     cout << "Enter a number\n";
     int userNumber = 0;
     cin >> userNumber;
+
+    // Testing if user inputted 57 or not
     if (userNumber == 57)
     {
        cout << "That's a heinz number!\n"; 
@@ -31,73 +38,94 @@ void ifWorksheets()
         cout << "That is a plain, old number.\n";
     }
 
+
+    
     // Question 2
-    cout << "Input a nunmber between 5 and 10\n";
+    cout << "Input a number between 5 and 10\n";
     int number;
     cin >> number;
+
+    // Testing if number is a plain number, too small, too big, or 7 or 9
     if (number > 10 )
     {
         cout << "Too big!\n";
     }
+
     else if (number < 5 )
     {
         cout << "Too small!\n";
     }
+    
     else if (number == 7)
     {
         cout << "Lucky Number!\n";
     }
+
+    
+    // Extra Thing if user enters a 9
     else if (number == 9)
     {
         cout << "Be careful not to get eaten by 7!\n";
     }
+    
     else
     {
         cout << "Yep, a plain old number between 5 and 10\n";
     }
 }
 
-void ifElseWorksheets()
+
+void worksheet2(string wsName)
 {
+    cout << "worksheet: " << wsName << endl << endl;
+    
     // Question 1
+    
     cout << "Enter your name:\n";
     string name;
     cin >> name;
     cout << "Enter your age:\n";
     int age;
     cin >> age;
-    // If over 16
+    // If over 16 then they can drive
     if (age >= 16)
     {
         cout << "It's scary, " << name << ", you are old enough to drive!\n";
     }
+    // else cant drive
     else
     {
         cout << "You still have " << 16 - age << " years left before you can drive.\n";
     }
 
+    
     // Question 2
     cout << "Enter a positive integer\n";
     int integer;
     cin >> integer;
+    // If there is a remander after modulus then number is odd. If not then its even
     int remander = integer % 2;
     if (remander == 0 )
     {
         cout << "Your number is even!\n";
     }
+    
     else
     {
         cout << "Your number is odd\n";
     }
 
+    
     // Question 3
      cout << "How many words do you want to send in your telegram message.\n";
     int words;
     cin >> words;
+    // If messgae is 15 words or less cost is $8.50. Otherwise $8.50 + $0.25 per word after 15
     if (words <= 15)
     {
         cout << "The cost to use the telegram is $8.50.\n";
     }
+    
     else
     {
         double additionalWords = words - 15;
@@ -108,34 +136,43 @@ void ifElseWorksheets()
     }
 
     // Question 4
+
+    // Extra thing, allows user to enter a new age or use the one already provided
     cout << "Would you like to enter a new age, or use the one you already entered? Enter new or old. New is for choosing a new age and old if sticking with the one provided earlier\n";
     string choice;
     cin >> choice;
     int birthYear;
+    // Asks current year to subtract from if you choose old age or compare to if you choose new age
     cout << "Enter the current year\n";
     int currentYear;
     cin >> currentYear;
+    
     if (choice == "new")
     {
         cout << "Enter your birthyear\n";
         cin >> birthYear;
     }
+    
     else
     {
      birthYear = currentYear - age;
     }
+
+    // If born after 1970, user qualifies for Juke Box Rally
     if (birthYear < 1970)
     {
         cout << "You qualify for the Juke Box Rally.\n";
     }
+    
     cout << "Enter your favorite fruit\n";
     string fruit;
     cin >> fruit;
-
+    // If user enters Strawberry, Strawberry Fields Forever. If not then Bye,bye Miss American Pie
     if (fruit == "Strawberry")
     {
         cout << "Strawberry Fields Forever!\n";
     }
+    
     else
     {
         cout << "Bye,bye Miss American Pie\n";
@@ -146,6 +183,8 @@ void ifElseWorksheets()
     cout << "Enter two positive integers\n";
     int numberOne;
     int numberTwo;
+    // COmparing if two integers are equal, greater than, or less than compared to each other
+    // prints in asceidning order
     cin >> numberOne >> numberTwo;
     if (numberOne == numberTwo)
     {
@@ -162,6 +201,7 @@ void ifElseWorksheets()
 
     // Question 6
 
+    // Asks user to make sure age is correct. If it isn't then, the user will input a correct age
     cout << "Your age is " << age << " correct?\n";
     string input;
     cin >> input;
@@ -173,7 +213,7 @@ void ifElseWorksheets()
     
     
     
-    
+    // Comparing age to the if statements to provide user with a price for their entry fee
     if (age <= 5)
     {
         string underFive = "0.00";
@@ -192,15 +232,21 @@ void ifElseWorksheets()
     }
 }
 
-void workingWithLogicalOperaters()
+void worksheet3(string wsName)
 {
+    cout << "worksheet: " << wsName << endl << endl;
+    
     // Question 1
+
+    // Asks user how many dogs or cats they have
+    // Depending on response, appropriate statement will be printed
     cout << "How many dogs do you have?\n";
     int dogs;
     cin >> dogs;
     cout << "How many cats do you have?\n";
     int cats;
     cin >> cats;
+    
     if (dogs > 0 && cats > 0)
     {
         cout << "Do your cats and dogs get along? Answer yes or no.\n";
@@ -212,26 +258,35 @@ void workingWithLogicalOperaters()
        {
           cout << "That's amazing! How did you get them to stop fighting?\n"; 
        }
+        
         // if user enters no for getting along
         else
         {
             cout << "Their constant fighting must cause you a lot of pain.\n";
         }
     }
+    
+    // Dogs only
     else if (dogs > 0 && cats == 0)
     {
         cout << "Guess you're a dog person\n";
     }
+    
+    // Cats only
     else if (dogs == 0 && cats > 0)
     {
         cout << "Guess you are a cat person.\n";
     }
+   
+    // Extra thing #2
+    // No pets
     else if (dogs == 0 && cats == 0) {
         cout << "No pets? I guess you must not like them.\n";
     }
 
 
     // Question 2
+    // Repeating until the user follows directions
     while (true) {
     cout << "Enter an integer between 50 and 100\n";
     int integer;
@@ -246,19 +301,25 @@ void workingWithLogicalOperaters()
     else
         {
             cout << "Sorry, not following directions will cost you dearly :-( \n";
+
         }
     }
     
 }
 
-void moreIfElseWorksheet()
+void worksheet4(string wsName)
 {
+    cout << "worksheet: " << wsName << endl << endl;
+
+    
     // Question 1
 
     string password = "password";
-    // While true loop to keep on repeating until user gets the right password
+    // Extra Thing: While true loop to keep on repeating until user gets the right password
     while (true)
     {
+        // User input for password. Makes sure it correct and breaks from loop
+        // if it is not correct, loop repeats
         cout << "Please enter the password: \n";
         string passwordGuess;
         cin >> passwordGuess;
@@ -267,7 +328,8 @@ void moreIfElseWorksheet()
             cout << "You got it!\n";
             break;
         }
-        
+
+        // Repeats until password is correct
         else
         {
         cout << "That's incorrect.\n";    
@@ -282,6 +344,8 @@ void moreIfElseWorksheet()
     cin.ignore();
     getline(cin,movieOne);
     getline(cin,movieTwo);
+    // Compares movie length and states which movie length is longest
+    // If they are equal, program prints they are equal
     int lengthOne = movieOne.length();
     int lengthTwo = movieTwo.length();
     // Determining which movie is longer
@@ -302,6 +366,7 @@ void moreIfElseWorksheet()
 
     // Question 3
 
+    // Reformats Hard drive if user wants it
     cout << "This program may reformat your hard disk. Do you wish to continue? (y/n)\n";
     char answer;
     cin >> answer;
@@ -318,12 +383,15 @@ void moreIfElseWorksheet()
     }
 }
 
-void switchWorksheet()
+void worksheet5(string wsName)
 {
+    cout << "worksheet: " << wsName << endl << endl;
+    
     // Question 1
     cout << "Enter your letter grade\n";
     char grade;
     cin >> grade;
+    // Switch statement that includes lower case and capital letters depending on user grade
     switch (grade) {
        case 'a':
            cout << "Your work is outstanding!\n";
@@ -355,7 +423,11 @@ void switchWorksheet()
        case 'F':
            cout << "Please see me for extra help!\n";
         break;
-        // Extra thing is default
+
+
+        
+        // Extra thing is default; prints a messgae if user enters invalid input
+
        default:
            cout << "Invalid input\n";
             cout << "That is not a grade. Do you even go to school?\n";
@@ -367,7 +439,9 @@ void switchWorksheet()
     cout << "Enter a number between 1 and 10.\n";
     int number;
     cin >> number;
-    
+
+
+    // Compares user input number to choices below
     switch (number)
     {
         case 1:
@@ -400,6 +474,7 @@ void switchWorksheet()
         case 10:
             cout << "Your number is a high even number\n";
             break;
+        // If user inputs invalid number, they are alerted
         default:
             cout << "You entered an invalid number\n";
     }
@@ -408,22 +483,20 @@ void switchWorksheet()
 
 int main ()
 {
-    // Method for worksheet called if worksheets
-  //  ifWorksheets();
 
+
+    // Strings that introduce Worksheet name
+    string ws1Name = "Working with if";
+    string ws2Name = "If Else Worksheet";
+    string ws3Name = "Working With Logical Operaters";
+    string ws4Name = "More If Else Worksheet";
+    string ws5Name = "Switch Worksheet";
+
+    worksheet1(ws1Name);
+    worksheet2(ws2Name);
+    worksheet3(ws3Name);
+    worksheet4(ws4Name);
+    worksheet5(ws5Name);
     
-    // Method for worksheet called if else 
-    //ifElseWorksheets();
-
     
-    // Working With Logical Operaters worksheet method
-    //workingWithLogicalOperaters();
-
-    
-    // More If Else Worksheet Method
-    //moreIfElseWorksheet();
-
-    // Switch Worksheet Method
-
-    switchWorksheet();
 }
